@@ -1,0 +1,181 @@
+/* BACKGROUND COLOR */
+body{
+background-color:#00011a;
+}
+#mb{
+  background-color: transparent;
+}
+/* STYLE TEXT */
+/* NAV BAR*/
+ul {list-style-type: none;
+ background-color:none;
+ overflow: hidden;
+ padding:1m;}
+
+li {
+  display: inline;
+  position: right
+}
+
+li a {
+  text-decoration: none;
+   font-family: Orbitron; 
+   font-size: 45px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+  color:white;
+  
+  padding:10px;
+  margin: 10px;
+  text-align: right
+}
+li a:hover {
+  background-color:#003166;
+}
+#myVideo {
+   /*position:center;*/
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150%;
+ z-index: -100;
+overflow:hidden;
+position:absolute;
+object-fit: cover;
+}
+
+#myBtn {
+  display: block;
+  font-family: Orbitron; 
+   font-size: 35px; 
+   font-style: normal;
+   color: white;
+    font-variant: normal; 
+    font-weight: 500;
+     background:transparent;
+     border-color: white;
+}
+
+#quote{
+  font-family: Orbitron; 
+   font-size: 45px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+    color: white;
+    letter-spacing: 4px;
+    background: rgb(0,49,102);
+    background: radial-gradient(circle, rgba(0,49,102,1) 4%, rgba(0,1,26,1) 100%);
+    position: center;
+}
+
+.img-fluid{
+  float : center;
+  border-style: outset;
+  background-color: transparent;
+  position: relative;
+  z-index: 4;
+  padding-left: 12px;
+   padding-right: 16px;
+}
+
+#reffy{
+  display: block;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto ;
+}
+
+#lol{
+  display: block;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto ;
+}
+
+
+.viewport-header {
+  font-family: Orbitron; 
+   font-size: 150px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+  color:white;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fronty{
+  font-family: Orbitron; 
+   font-size: 45px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+  color:white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+html {
+    zoom: 0.5;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+h2{
+  font-family: Orbitron; 
+   font-size: 45px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+  color:white;
+}
+
+h4{
+  font-family: Orbitron; 
+   font-size: 45px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+  color:white;
+  letter-spacing: 2px;
+}
+
+h3{
+  font-family: Orbitron; 
+   font-size: 65px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 700;
+  color:white;
+  text-align: center;
+  border-style: outset;
+
+}
+/*
+#dog{
+  display: block;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto ;
+  height:500px ;
+  width: 50% ;
+}
+*/
+
+h5{
+  font-family: Orbitron; 
+   font-size: 55px; 
+   font-style: normal;
+    font-variant: normal; 
+    font-weight: 700;
+  color:white;
+  letter-spacing: 2px;
+  border-style: outset;
+  border-width: thin;
+}
